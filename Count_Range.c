@@ -21,6 +21,10 @@
     int iCnt=0;
     int iDigit=0;
     
+    if(iNo < 0)
+    {
+       iN0=-iNo;
+    }
     while(iNo > 0)
     {
         iDigit=iNo % 10;
