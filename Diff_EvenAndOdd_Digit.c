@@ -21,7 +21,11 @@ int CountDiff(int iNo)
     int iDigit=0;
     int iEven=0,iOdd;
     int iDiff=0;
-
+    
+    if(iNo < 0)
+    {
+       iNo=-iNo;
+    }
     while(iNo > 0)
     {
         iDigit=iNo % 10;
