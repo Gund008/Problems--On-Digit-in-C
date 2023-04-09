@@ -23,7 +23,11 @@ BOOL ChkZero(int iNo)
     int iDigit=0;
     int iNo1=0;
     int iTemp=iNo;
-
+   
+    if(iNo < 0)
+    {
+       iNo=-iNo;
+    }
 
    while(iNo !=0)
    {
