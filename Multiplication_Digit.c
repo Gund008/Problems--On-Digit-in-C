@@ -19,6 +19,11 @@ int MultDigits(int iNo)
 {
      int iDigit=0;
      int iMult=1;
+     
+    if(iNo < 0)
+    {
+       iNo=-iNo;
+    }
     if(iNo==0)
     {
         return 1;
